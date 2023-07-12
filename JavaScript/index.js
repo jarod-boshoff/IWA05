@@ -18,15 +18,15 @@ if (area === "RSA") {
 
 shoes = 300 * 1
 toys = 100 * 5
-shirts = 150 * 1
+shirts = 150 * 'NONE_SELECTED'
 batteries = 35 * 2
-pens = 5 * 1 
+pens = 5 * 'NONE_SELECTED' 
 
 shipping = null
 
 if (shoes + batteries + pens + shirts > 1000) {
 	if (area = NAM && customers < 2) {
-			if (area = "RSA")
+			if (area = RSA)
 		    shipping = 0 || calcShipping
 		}
 	}
@@ -36,7 +36,6 @@ if ((shipping = 0) && (customers !== 1)) {
  }
 
 area == 'NK' ? console.log("WARNING") : console.log("price", currency, shoes + batteries + pens + shirts + shipping)
-
 if (area =='NK')
 	{console.log("WARNING")}
 else console.log("price", currency, shoes + batteries + pens + shirts + shipping)
